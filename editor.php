@@ -32,6 +32,9 @@
                   <?php while($r=mysqli_fetch_array($query)){ ?>
                     <option value='<?php echo $r['lokasi'] ?>' style='text-align:center;'><?php echo $r['lokasi'] ?></options>
                   <?php  } ?>
+                  <!-- <option value="satu">Satu</option>
+                  <option value="Dua" selected>Dua</option>
+                  <option value="Tiga">Tiga</option> -->
               </select>
             </th>
         </thead>

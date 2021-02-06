@@ -31,7 +31,7 @@
             return res.json()
         }).then(result=>{
             console.log(result,'result')
-            setTimeout(()=>{loading.style.display='none'},2000)
+            setTimeout(()=>{loading.style.display='none'},1000)
             
         }).catch(error=>{
             console.log(error,'catch')
@@ -46,8 +46,8 @@
             const newEl=bahan.cloneNode(true)
 
             newEl.style.position='absolute'
-            newEl.style.top='50%'
-            newEl.style.left='50%'
+            newEl.style.top='20%'
+            newEl.style.left='20%'
 
             context.appendChild(newEl)
         }
@@ -55,6 +55,9 @@
 
     // context event
     context.addEventListener('mousedown',(event)=>{ 
+        var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+        pos3 = event.clientX;
+        pos4 = event.clientY;
         if(event.target.classList.contains('bahan')){
             // button action (remove,resize,rotate) show when right click
             if(event.which == 3){
@@ -88,16 +91,28 @@
                         context.removeChild(event.target)
                     }
                 }) 
-            } 
+            }
+            
             context.addEventListener('mousemove',mouseMove,true)
-        
+            let top=event.target.offsetY
+            let left=event.target.offsetX
+
+
             function mouseMove(mo){
-                
+
                 mo.preventDefault()
-                console.log(mo)
-                console.log(event.target.offsetTop,'offsetTop target')
-                event.target.style.top=Number(mo.clientY)-Number(context.offsetTop)+"px"
-                event.target.style.left=Number(mo.clientX)-Number(context.offsetLeft)+"px"
+                pos1 = pos3 -mo.clientX;
+                pos2 = pos4 -mo.clientY;
+                pos3 =mo.clientX;
+                pos4 =mo.clientY;
+
+                event.target.style.top = (event.target.offsetTop - pos2) + "px";
+                event.target.style.left = (event.target.offsetLeft - pos1) + "px";
+                // top=mo.offsetY
+                // left=Number(mo.clientX)-Number(context.offsetLeft)
+                // console.log(event.target.offsetTop,'offsetTop target')
+                // event.target.style.top=top+"px"
+                // event.target.style.left=left+"px"
             }
             context.addEventListener('mouseup',(up)=>{
                 console.log('test')
@@ -116,6 +131,16 @@
             parent.style.display='none'
         }
     }
+
+    context.addEventListener('click',(e)=>{
+        if(e.target.classList.contains('lokasi')){
+            // console.log('lokasi click')
+            
+            let opt=e.target.options[e.target.selectedIndex]
+            opt.setAttribute("selected",true)
+        }
+    })
+
 
 // })
 
