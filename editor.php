@@ -23,17 +23,16 @@
 </head>
 <body>
   <?php include 'loading.html' ?>
-  
   <ul class='popup'>
       <li class='bg popup-item'>
         <div>
-          <label for='bg'>Background Color</label>
-          <input type="color" name="bg" class='bg' id="bg" style='display:absolute;z-index:9;' placeholder='background Color'>
+          <label for='bg'>Bg Color</label>
+          <input type="color" name="bg" class='bg color-picker' id="bg" style='display:absolute;z-index:9;' placeholder='background Color'>
         </div>
       </li>
       <li class='color popup-item'>
         <label for='color'>Font Color</label >
-        <input type="color" name="color" class='color' id="color">
+        <input type="color" name="color" class='color color-picker' id="color">
       </li>
       <li class='animated popup-item'>Animated</li>
       <li class='resize popup-item'>Resize</li>
@@ -52,6 +51,7 @@
           <li class='fas fa-font tools-item' data-target='text'></li>
         </ul>
       </div>
+      <!-- end pane -->
       <table border='1' class='bahan table' data-rot='0'>
         <thead>
             <th colspan='2' > 
@@ -87,15 +87,19 @@
             Text
       </div>
     </div>
+    <!-- end tools -->
     <?php
       include("filebendung/".$_GET['kode_bendung'].".php");
     ?>
   </div>
+  <!-- end container -->
   <div class="action">
     <input type="hidden" name="namafile" id="namafile" value="<?php echo $_GET['kode_bendung'];?>">
     <button type="button" id="save">Save</button>
   </div>
+  <!-- end action -->
 </div>
+<!-- end wrapper -->
   <script src="script.js"></script>
 </body>
 </html>

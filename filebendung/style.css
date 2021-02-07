@@ -74,9 +74,9 @@
 
 @keyframes dapdip{
     from{
-        opacity: 0.3;
+        background-color: white;
     }
     to{
-        opacity: 1;
+        
     }
 }

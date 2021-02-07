@@ -70,7 +70,7 @@
         </tbody>
       </table><div class="bahan panah" data-rot="360" style="position: absolute; top: 208px; left: 298px; width: 600px; transform: rotate(360deg); color: rgb(206, 59, 59);">
           
-      </div><div class="bahan bulet" data-rot="0" style="position: absolute; top: 200px; left: 887px;">
+      </div><div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 200px; left: 887px; background-color: rgb(13, 9, 246);">
           
       </div><div class="bahan bulet" data-rot="0" style="position: absolute; top: 200px; left: 692px;">
           

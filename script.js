@@ -44,7 +44,7 @@
         console.log(ev.target)
         const target=ev.target
         if(target.classList.contains('tools-item')){
-            
+            console.log('target')
             let childs=tools.children
             let bahan;
             for (let index = 0; index < childs.length; index++) {
