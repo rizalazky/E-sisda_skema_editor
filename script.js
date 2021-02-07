@@ -3,7 +3,7 @@
     const bahan=document.getElementsByClassName('bahan')
     let context=document.getElementsByClassName('context')[0]
     let tools=document.getElementsByClassName('tools')[0]
-
+    const popup=document.getElementsByClassName('popup')[0]
     const save=document.getElementById('save')
 
     save.addEventListener('click',function(e){
@@ -41,15 +41,74 @@
 
     // tools events
     document.getElementsByClassName('tools')[0].addEventListener('click',(ev)=>{
-        if(ev.target.classList.contains('bahan')){
-            const bahan=ev.target
+        console.log(ev.target)
+        const target=ev.target
+        if(target.classList.contains('tools-item')){
+            
+            let childs=tools.children
+            let bahan;
+            for (let index = 0; index < childs.length; index++) {
+                if(childs[index].classList.contains(target.dataset.target)){
+                    bahan=childs[index]
+                }
+            }
             const newEl=bahan.cloneNode(true)
-
             newEl.style.position='absolute'
             newEl.style.top='20%'
             newEl.style.left='20%'
-
             context.appendChild(newEl)
+        }
+    })
+
+    context.addEventListener('dblclick',(event)=>{
+        let target=event.target
+        if(target.classList.contains('bahan')){
+            console.log(target)
+            popup.style.display='block'
+            popup.style.top=event.clientY+"px"
+            popup.style.left=event.clientX+"px"
+            
+            popup.addEventListener('click',(pop)=>{
+                // pop.preventDefault()
+                if(pop.target.classList.contains('resize')){
+                    resize(target,popup)
+                    target=null
+                }else if(pop.target.classList.contains('rotate')){
+                    let dataRot;
+                    if(target != null){
+                        dataRot=Number(target.dataset.rot)+15
+                        target.style.transform=`rotate(${dataRot}deg)`
+                        target.dataset.rot=dataRot
+                    }
+                }else if(pop.target.classList.contains('remove')){
+                    context.removeChild(target)
+                    console.log(target)
+                    popup.style.display='none'
+                    target=null
+                }else if(pop.target.classList.contains('close')){
+                    popup.style.display='none'
+                    target=null
+                }else if(pop.target.classList.contains('bg')){
+                    
+                    const bg=document.getElementById('bg')
+                    
+                    bg.addEventListener('input',(col)=>{
+                        
+                        target.style.backgroundColor=col.target.value
+                    })
+                }else if(pop.target.classList.contains('color')){
+                    const color=document.getElementById('color')
+                    console.log('color')
+                    color.addEventListener('input',(col)=>{
+                        
+                        target.style.color=col.target.value
+                    })
+                }else if(pop.target.classList.contains('animated')){
+                    target.classList.add('animated')
+                    console.log('test')
+                }
+            })
+
         }
     })
 
@@ -59,41 +118,9 @@
         pos3 = event.clientX;
         pos4 = event.clientY;
         if(event.target.classList.contains('bahan')){
-            // button action (remove,resize,rotate) show when right click
-            if(event.which == 3){
-                // muncul popup resize dll
-                let child=event.target.children[0]
-                child.style.display='flex'
-                let status=false
-                child.addEventListener('click',(pop)=>{
-                    pop.preventDefault()
-                    if(pop.target.classList.contains('resize')){
-                        resize(event.target,child)
-                    }else if(pop.target.classList.contains('rotate')){
-
-                        let dataRot=Number(event.target.dataset.rot)+15
-                        event.target.style.transform=`rotate(${dataRot}deg)`
-                        event.target.dataset.rot=dataRot
-                        const newCloseBtn=document.createElement('button')
-                       
-                        newCloseBtn.innerText='Close'
-                        newCloseBtn.addEventListener('click',(close)=>{
-                            child.style.display='none'
-                            child.removeChild(close.target)
-                        })
-                        
-                        if(!status){
-                            child.appendChild(newCloseBtn)
-                            status=true
-                        }
-                        
-                    }else if(pop.target.classList.contains('remove')){
-                        context.removeChild(event.target)
-                    }
-                }) 
-            }
             
-            context.addEventListener('mousemove',mouseMove,true)
+            
+            context.addEventListener('mousemove',mouseMove)
             let top=event.target.offsetY
             let left=event.target.offsetX
 
@@ -115,16 +142,14 @@
                 // event.target.style.left=left+"px"
             }
             context.addEventListener('mouseup',(up)=>{
-                console.log('test')
-                context.removeEventListener('mousemove',mouseMove,true)
+                
+                context.removeEventListener('mousemove',mouseMove)
             })
-        
         }
 
     })
 
     function resize(el,parent){
-        console.log(el)
         let inputWidth=prompt('width')
         if(inputWidth !== ""){
             el.style.width=inputWidth+"px"

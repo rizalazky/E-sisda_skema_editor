@@ -34,7 +34,7 @@
         for(let x=0;x<data.length;x++){
           if(lokasi[i].value==data[x].lokasi){
             area=data[x].a_tanam;
-            qAlir=data[x].id
+            qAlir=data[x].q_diberikan
           }
         }
         table[i].children[1].innerHTML=`

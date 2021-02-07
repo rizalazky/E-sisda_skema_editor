@@ -19,15 +19,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link href="assets/fontawesome/css/all.css" rel="stylesheet">
 </head>
 <body>
   <?php include 'loading.html' ?>
+  
+  <ul class='popup'>
+      <li class='bg popup-item'>
+        <div>
+          <label for='bg'>Background Color</label>
+          <input type="color" name="bg" class='bg' id="bg" style='display:absolute;z-index:9;' placeholder='background Color'>
+        </div>
+      </li>
+      <li class='color popup-item'>
+        <label for='color'>Font Color</label >
+        <input type="color" name="color" class='color' id="color">
+      </li>
+      <li class='animated popup-item'>Animated</li>
+      <li class='resize popup-item'>Resize</li>
+      <li class='rotate popup-item'>Rotate</li>
+      <li class='remove popup-item'>Remove</li>
+      <li class='close popup-item'>Close</li>
+  </ul>
 <div class="wrapper">
   <div class='container'>
     <div class='tools'>
-      <table border='1' class='bahan table'>
+      <div class="pane">
+        <ul>
+          <li class='fas fa-table tools-item' data-target='table'></li>
+          <li class='fas fa-circle tools-item' data-target='bulet'></li>
+          <li class='fas fa-pen tools-item' data-target='panah'></li>
+          <li class='fas fa-font tools-item' data-target='text'></li>
+        </ul>
+      </div>
+      <table border='1' class='bahan table' data-rot='0'>
         <thead>
-            <th colspan='2' >
+            <th colspan='2' > 
               <select name="lokasi" class="lokasi" >
                   <?php while($r=mysqli_fetch_array($query)){ ?>
                     <option value='<?php echo $r['lokasi'] ?>' style='text-align:center;'><?php echo $r['lokasi'] ?></options>
@@ -51,14 +78,13 @@
         </tbody>
       </table>
       <div class='bahan panah' data-rot='0'>
-          <div class='popup'>
-              <button class='resize'>Resize</button>
-              <button class='rotate'>Rotate</button>
-              <button class='remove'>Remove</button>
-          </div>
-      </div>
-      <div class="bahan bulet">
           
+      </div>
+      <div class="bahan bulet" data-rot='0'>
+          
+      </div>
+      <div class='bahan text' contenteditable="true" data-rot='0'>
+            Text
       </div>
     </div>
     <?php

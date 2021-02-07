@@ -520,4 +520,4 @@
           </tr>
           
         </tbody>
-      </table></div>
+      </table><div class="bahan text" contenteditable="true" style="position: absolute; top: 153px; left: 350px;">Halo gaes</div></div>
