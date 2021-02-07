@@ -38,7 +38,7 @@
               </select>
             </th>
         </thead>
-        <tbody>
+        <tbody class='tbody'>
           <tr>
             <td>Area</td>
             <td></td>

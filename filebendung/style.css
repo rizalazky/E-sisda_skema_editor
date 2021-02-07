@@ -18,8 +18,9 @@
 
 .context{
     background-color: yellow;
-    height: 100%;
+    min-height: 200vh;
     flex: 1;
+    /* overflow:auto; */
     position: relative;
 }
 
