@@ -14,8 +14,21 @@
 <div class='container'>
 
   <?php
-    include($_GET['kode_bendung'].".php");
-  ?>
+    include '../conn.php';
+    if(!empty($_GET['kode_bendung'])){
+      include($_GET['kode_bendung'].".php");
+    }else{ ?>
+      <ul style='display:flex;flex-direction:column;'>
+    <?php  $query=mysqli_query($conn,"SELECT kode,bendung FROM bendung");
+      while($r=mysqli_fetch_array($query)){ ?>
+          <li>
+            <a href="?kode_bendung=<?php echo $r['kode'];?>"><?php echo $r['bendung'];?></a>
+          </li>
+    <?php 
+      }
+    }
+    ?>
+    </ul>
   <script>
     let queryString=window.location.search;
     let UrlParams=new URLSearchParams(queryString)

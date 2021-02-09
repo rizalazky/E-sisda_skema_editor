@@ -187,4 +187,78 @@
         </tbody>
       </table><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 173px; left: 278px;">B.Lo 3 sd 6</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 173px; left: 463px; color: rgb(247, 8, 8);">
             B. Lo. 3</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 169px; left: 676px; color: rgb(206, 59, 59);">
-            B. Mg. 1</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 174px; left: 852px; color: rgb(25, 31, 210);">B.PADARAPAH<div><br></div></div></div>
+            B. Mg. 1</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 174px; left: 852px; color: rgb(25, 31, 210);">B.PADARAPAH<div><br></div></div><div class="bahan panah" data-rot="0" style="position: absolute; top: 603px; left: 538px; width: 300px;">
+          
+      </div><div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 595px; left: 693px; background-color: rgb(252, 3, 3);">
+          
+      </div><table border="1" class="bahan table" data-rot="0" style="position: absolute; top: 555px; left: 837px;">
+        <thead>
+            <tr><th colspan="2"> 
+              <select name="lokasi" class="lokasi">
+                                      <option value="B. Mg. 1" style="text-align:center;" selected="true">B. Mg. 1
+                                      </option><option value="B. Lo. 3" style="text-align:center;">B. Lo. 3
+                                      </option><option value="B. Lo 3 sd 6" style="text-align:center;">B. Lo 3 sd 6
+                                      </option><option value="SS. Kemiri Sewu" style="text-align:center;">SS. Kemiri Sewu
+                                      </option><option value="B. Ba. 6" style="text-align:center;" selected="true">B. Ba. 6
+                                      </option><option value="B. Ba. 8" style="text-align:center;">B. Ba. 8
+                                      </option><option value="B. Ba. 8 sd 12" style="text-align:center;">B. Ba. 8 sd 12
+                                      </option><option value="SS. Pucung" style="text-align:center;">SS. Pucung
+                                      </option><option value="SS. Paseh" style="text-align:center;">SS. Paseh
+                                      </option><option value="SS. Jongke" style="text-align:center;">SS. Jongke
+                                      </option><option value="PADARAPAH" style="text-align:center;">PADARAPAH
+                                      </option><option value="B. Lo. 3 sd 6" style="text-align:center;">B. Lo. 3 sd 6
+                                    <!-- <option value="satu">Satu</option>
+                  <option value="Dua" selected>Dua</option>
+                  <option value="Tiga">Tiga</option> -->
+              </option></select>
+            </th>
+        </tr></thead>
+        <tbody class="tbody">
+          <tr>
+            <td>Area</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Q Alir</td>
+            <td></td>
+          </tr>
+          
+        </tbody>
+      </table><table border="1" class="bahan table" data-rot="0" style="position: absolute; top: 653px; left: 470px;">
+        <thead>
+            <tr><th colspan="2"> 
+              <select name="lokasi" class="lokasi">
+                                      <option value="B. Mg. 1" style="text-align:center;" selected="true">B. Mg. 1
+                                      </option><option value="B. Lo. 3" style="text-align:center;">B. Lo. 3
+                                      </option><option value="B. Lo 3 sd 6" style="text-align:center;">B. Lo 3 sd 6
+                                      </option><option value="SS. Kemiri Sewu" style="text-align:center;">SS. Kemiri Sewu
+                                      </option><option value="B. Ba. 6" style="text-align:center;" selected="true">B. Ba. 6
+                                      </option><option value="B. Ba. 8" style="text-align:center;">B. Ba. 8
+                                      </option><option value="B. Ba. 8 sd 12" style="text-align:center;">B. Ba. 8 sd 12
+                                      </option><option value="SS. Pucung" style="text-align:center;" selected="true">SS. Pucung
+                                      </option><option value="SS. Paseh" style="text-align:center;">SS. Paseh
+                                      </option><option value="SS. Jongke" style="text-align:center;">SS. Jongke
+                                      </option><option value="PADARAPAH" style="text-align:center;">PADARAPAH
+                                      </option><option value="B. Lo. 3 sd 6" style="text-align:center;">B. Lo. 3 sd 6
+                                    <!-- <option value="satu">Satu</option>
+                  <option value="Dua" selected>Dua</option>
+                  <option value="Tiga">Tiga</option> -->
+              </option></select>
+            </th>
+        </tr></thead>
+        <tbody class="tbody">
+          <tr>
+            <td>Area</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Q Alir</td>
+            <td></td>
+          </tr>
+          
+        </tbody>
+      </table><div class="bahan panah" data-rot="270" style="position: absolute; top: 627px; left: 514px; transform: rotate(270deg); width: 50px;">
+          
+      </div><div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 595px; left: 529px; background-color: rgb(103, 3, 252);">
+          
+      </div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 571px; left: 737px; color: rgb(234, 40, 6);">B. Ba. 6</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 569px; left: 560px; color: rgb(46, 15, 199);">Sal. Sek. Pucung</div></div>
