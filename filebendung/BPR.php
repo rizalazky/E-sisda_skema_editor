@@ -520,4 +520,65 @@
           </tr>
           
         </tbody>
-      </table><div class="bahan text" contenteditable="true" style="position: absolute; top: 153px; left: 350px;">Halo gaes</div></div>
+      </table><div class="bahan text" contenteditable="true" style="position: absolute; top: 153px; left: 350px;">Halo gaes</div><table class="bahan table" data-rot="0" style="position: absolute; top: 210px; left: 101px;">
+          <thead>
+            <tr><th colspan="2">
+              <select name="lokasi" class="lokasi">
+                                  <option value=" B. Pr. 1 Ki" style="text-align:center;"> B. Pr. 1 Ki
+                                    </option><option value=" B. Pr. 2 Ka" style="text-align:center;"> B. Pr. 2 Ka
+                                    </option><option value=" B. Pr. 2 Ki" style="text-align:center;"> B. Pr. 2 Ki
+                                    </option><option value=" B. Pr. 2 Tg" style="text-align:center;"> B. Pr. 2 Tg
+                                    </option><option value=" B. Pr. 3 Ka" style="text-align:center;"> B. Pr. 3 Ka
+                                    </option><option value=" B. Pr. 3 Ki" style="text-align:center;"> B. Pr. 3 Ki
+                                    </option><option value=" B. Pr. 3 Tg" style="text-align:center;"> B. Pr. 3 Tg
+                                    </option><option value=" B. Ka. 1 Ka" style="text-align:center;"> B. Ka. 1 Ka
+                                    </option><option value=" B. Ka. 2 Ka" style="text-align:center;"> B. Ka. 2 Ka
+                                    </option><option value=" B. Ka. 2 Ki" style="text-align:center;"> B. Ka. 2 Ki
+                                    </option><option value=" B. Ka. 2 Tg" style="text-align:center;"> B. Ka. 2 Tg
+                                    </option><option value=" B. Ka. 3 Ka" style="text-align:center;"> B. Ka. 3 Ka
+                                    </option><option value=" B. Ka. 3 Ki" style="text-align:center;"> B. Ka. 3 Ki
+                                    </option><option value=" B. Ka. 4 Ka" style="text-align:center;"> B. Ka. 4 Ka
+                                    </option><option value=" B. Ka. 5 Ka" style="text-align:center;"> B. Ka. 5 Ka
+                                    </option><option value=" B. Ka. 6 Ka" style="text-align:center;"> B. Ka. 6 Ka
+                                    </option><option value=" B. Ka. 7 Ka" style="text-align:center;"> B. Ka. 7 Ka
+                                    </option><option value=" B. Ka. 7 Ki" style="text-align:center;"> B. Ka. 7 Ki
+                                    </option><option value=" B. Wp. 1 Ki" style="text-align:center;"> B. Wp. 1 Ki
+                                    </option><option value=" B. Wp. 2 Ka" style="text-align:center;"> B. Wp. 2 Ka
+                                    </option><option value=" B. Wp. 2 Ki" style="text-align:center;"> B. Wp. 2 Ki
+                                    </option><option value=" B. Ba. 1 Ki" style="text-align:center;"> B. Ba. 1 Ki
+                                    </option><option value=" B. Ba. 1 Tg" style="text-align:center;"> B. Ba. 1 Tg
+                                    </option><option value=" B. Ba. 2 Ka" style="text-align:center;"> B. Ba. 2 Ka
+                                    </option><option value=" B. Ba. 2 Ki" style="text-align:center;"> B. Ba. 2 Ki
+                                    </option><option value=" B. Ba. 2 Tg" style="text-align:center;"> B. Ba. 2 Tg
+                                    </option><option value=" B. Kl. 1 Ki" style="text-align:center;"> B. Kl. 1 Ki
+                                    </option><option value=" B. Kl. 1 Ki&quot;" style="text-align:center;"> B. Kl. 1 Ki"
+                                    </option><option value=" B. Kl. 2 Ka" style="text-align:center;"> B. Kl. 2 Ka
+                                    </option><option value=" B. Kl. 2 Ki" style="text-align:center;"> B. Kl. 2 Ki
+                                    </option><option value=" B. Kl. 3 Ki" style="text-align:center;"> B. Kl. 3 Ki
+                                    </option><option value=" B. Kl. 4 Ki" style="text-align:center;"> B. Kl. 4 Ki
+                                    </option><option value="B. Ts. 1 Ki" style="text-align:center;">B. Ts. 1 Ki
+                                    </option><option value=" B. Gjl. 1 Ka" style="text-align:center;"> B. Gjl. 1 Ka
+                                    </option><option value=" B. Gjl. 1 Ki" style="text-align:center;"> B. Gjl. 1 Ki
+                                    </option><option value=" B. Kg. 1 Ka" style="text-align:center;"> B. Kg. 1 Ka
+                                    </option><option value=" B. Kg. 2 Ka" style="text-align:center;"> B. Kg. 2 Ka
+                                    </option><option value=" B. Kg. 2 Ki" style="text-align:center;"> B. Kg. 2 Ki
+                                    </option><option value=" B. Pr. 3" style="text-align:center;"> B. Pr. 3
+                                    </option><option value=" Bendung Padurekso" style="text-align:center;"> Bendung Padurekso
+                                    <!-- <option value="satu">Satu</option>
+                  <option value="Dua" selected>Dua</option>
+                  <option value="Tiga">Tiga</option> -->
+              </option></select>
+            </th>
+          </tr></thead>
+          <tbody class="tbody">
+            <tr>
+              <td>Area</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Q Alir</td>
+              <td></td>
+            </tr>
+
+          </tbody>
+        </table></div>

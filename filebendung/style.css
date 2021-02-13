@@ -13,6 +13,25 @@
     width: 200px;
 }
 
+.table{
+    border: none;
+    border: 1px solid black;
+}
+
+.table th{
+    background-color: black;
+}
+
+.table th select{
+    text-align-last: center;
+    color: white;
+    outline: none;
+    background-color: black;
+}
+
+.table tr td{
+    /* border-bottom: 1px solid black; */
+}
 
 .context{
     min-height: 200vh;

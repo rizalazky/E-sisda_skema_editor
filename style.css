@@ -10,6 +10,26 @@
     overflow: hidden;
 }
 
+.table{
+    border: none;
+    
+}
+
+.table th{
+    background-color: black;
+}
+
+.table th select{
+    text-align-last: center;
+    color: white;
+    outline: none;
+    background-color: black;
+}
+
+.table tr td{
+    border-bottom: 1px solid black;
+}
+
 .container{
     display: flex;
     max-height: 91vh;

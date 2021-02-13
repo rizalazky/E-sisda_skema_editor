@@ -1,56 +1,58 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <!-- <header style="height:300px;">
       Bendungan
   </header> -->
-<div class='container'>
+  <div class='container'>
 
-  <?php
+    <?php
     include '../conn.php';
-    if(!empty($_GET['kode_bendung'])){
-      include($_GET['kode_bendung'].".php");
-    }else{ ?>
+    if (!empty($_GET['kode_bendung'])) {
+      include($_GET['kode_bendung'] . ".php");
+    } else { ?>
       <ul style='display:flex;flex-direction:column;'>
-    <?php  $query=mysqli_query($conn,"SELECT kode,bendung FROM bendung");
-      while($r=mysqli_fetch_array($query)){ ?>
+        <?php $query = mysqli_query($conn, "SELECT kode,bendung FROM bendung");
+        while ($r = mysqli_fetch_array($query)) { ?>
           <li>
-            <a href="?kode_bendung=<?php echo $r['kode'];?>"><?php echo $r['bendung'];?></a>
+            <a href="?kode_bendung=<?php echo $r['kode']; ?>"><?php echo $r['bendung']; ?></a>
           </li>
-    <?php 
-      }
-    }
-    ?>
-    </ul>
-  <script>
-    let queryString=window.location.search;
-    let UrlParams=new URLSearchParams(queryString)
-    let KodeBendung=UrlParams.get('kode_bendung');
-    const table=document.getElementsByClassName('table');
-    const lokasi=document.getElementsByClassName('lokasi');
-
-    console.log(lokasi)
-    let data=[]
-    function setValueTable(){
-      console.log(data)
-      for(let i=0;i<table.length;i++){
-        // console.log(table[i].children[1])
-        // console.log(lokasi[i].value)
-        let area,qAlir;
-        for(let x=0;x<data.length;x++){
-          if(lokasi[i].value==data[x].lokasi){
-            area=data[x].a_tanam;
-            qAlir=data[x].q_diberikan
-          }
+      <?php
         }
-        table[i].children[1].innerHTML=`
+      }
+      ?>
+      </ul>
+      <script>
+        let queryString = window.location.search;
+        let UrlParams = new URLSearchParams(queryString)
+        let KodeBendung = UrlParams.get('kode_bendung');
+        const table = document.getElementsByClassName('table');
+        const lokasi = document.getElementsByClassName('lokasi');
+
+        console.log(lokasi)
+        let data = []
+
+        function setValueTable() {
+          console.log(data)
+          for (let i = 0; i < table.length; i++) {
+            // console.log(table[i].children[1])
+            // console.log(lokasi[i].value)
+            let area, qAlir;
+            for (let x = 0; x < data.length; x++) {
+              if (lokasi[i].value == data[x].lokasi) {
+                area = data[x].a_tanam;
+                qAlir = data[x].q_diberikan
+              }
+            }
+            table[i].children[1].innerHTML = `
           <tr>
             <td>Areal</td>
             <td>${area}</td>
@@ -60,25 +62,27 @@
             <td>${qAlir}</td>
           </tr>
         `
-      }
-    }
-      fetchData()
-      function fetchData(){
-        fetch('http://localhost/bendung-skema/filebendung/getBendung.php?kode_bendung='+KodeBendung).
-          then(res=>{
+          }
+        }
+        fetchData()
+
+        function fetchData() {
+          fetch('http://localhost/E-sisda_skema_editor/filebendung/getBendung.php?kode_bendung=' + KodeBendung).
+          then(res => {
             return res.json()
-          }).then(result=>{
-            data=result
+          }).then(result => {
+            data = result
             setValueTable()
-          }).catch(err=>console.log(err))
-      }
-      const select=document.getElementsByTagName('select')
-      
-      for (let index = 0; index < select.length; index++) {
-          select[index].setAttribute('disabled',true)
-          select[index].style.textAlign='center'
-      }
-  </script>
-</div>
+          }).catch(err => console.log(err))
+        }
+        const select = document.getElementsByTagName('select')
+
+        for (let index = 0; index < select.length; index++) {
+          select[index].setAttribute('disabled', true)
+          select[index].style.textAlign = 'center'
+        }
+      </script>
+  </div>
 </body>
+
 </html>
