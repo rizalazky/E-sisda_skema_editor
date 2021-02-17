@@ -21,6 +21,7 @@ if (!empty($_GET['submit'])) {
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="header.css">
 </head>
 
 <body>
@@ -90,6 +91,11 @@ if (!empty($_GET['submit'])) {
         </div>
       </div>
       <!-- end tools -->
+      <!-- header -->
+   
+
+
+      <!-- endheader -->
       <?php
       include("filebendung/" . $_GET['kode_bendung'] . ".php");
       ?>

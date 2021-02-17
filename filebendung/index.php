@@ -6,19 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../header.css">
 </head>
 
 <body>
   <!-- <header style="height:300px;">
       Bendungan
   </header> -->
-  <div class='container'>
 
+
+  <?php
+  include '../conn.php';
+  if (!empty($_GET['kode_bendung'])) { ?>
+    <div class="headerCSS">
+      <div class="header__logoJateng">
+        <img class="animate__animated animate__swing animate__infinite infinite" src="index_files/logo_jateng.png" alt="Logo" />
+        <div class="header__title">
+          <h1>APEMASI</h1>
+          <span> BPSDA PEMALI COMAL</span>
+        </div>
+      </div>
+
+      <div class="header__logoPublikasi">
+        <img src="index_files/88b899f98e7355b3690480284e69655b_240x150.png" alt="" srcset="" />
+        <div class="header__title">
+          <span class="publikasi_distibusi">
+            <marquee scrollamount="15">
+              PUBLIKASI DISTRIBUSI AIR IRIGASI</marquee>
+          </span>
+        </div>
+      </div>
+
+      <div class="header__logoJatengGayeng">
+        <img class="animate__animated animate__flipInY" src="index_files/logoJatengGayeng.png" alt="" srcset="" />
+      </div>
+    </div>
+    <div class='container'>
     <?php
-    include '../conn.php';
-    if (!empty($_GET['kode_bendung'])) {
-      include($_GET['kode_bendung'] . ".php");
-    } else { ?>
+    include($_GET['kode_bendung'] . ".php");
+  } else { ?>
       <ul style='display:flex;flex-direction:column;'>
         <?php $query = mysqli_query($conn, "SELECT kode,bendung FROM bendung");
         while ($r = mysqli_fetch_array($query)) { ?>
@@ -81,8 +107,14 @@
           select[index].setAttribute('disabled', true)
           select[index].style.textAlign = 'center'
         }
+        const text = document.getElementsByClassName('text')
+
+        for (let index = 0; index < text.length; index++) {
+          text[index].setAttribute('contenteditable', false)
+          text[index].style.textAlign = 'center'
+        }
       </script>
-  </div>
+    </div>
 </body>
 
 </html>

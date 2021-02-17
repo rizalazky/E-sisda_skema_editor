@@ -1,0 +1,264 @@
+@media only screen and (max-width: 320px) {
+  /* For mobile phones: */
+
+  [class*="header"] {
+    background-color: #48d1cc;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    /* height: 150px; */
+    /* top: 0; */
+    /* z-index: 100; */
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* logo jateng mobile */
+
+  [class*="header__logoJateng"] {
+    display: flex;
+    /* /* flex-direction: column; */
+    align-items: center;
+  }
+
+  [class*="container"] {
+    /* background-color: #; */
+    display: flex;
+    box-sizing: border-box;
+    /* flex: 1; */
+
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  [class*="header__logoJatengGayeng"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+
+  [class*="headerCSS"] {
+    background-color: black;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .headerCSS {
+    background-color: black;
+    width: 1100px;
+  }
+}
+
+.headerCSS {
+  background-color: black;
+  
+  /* background-color: #48d1cc; */
+  display: flex;
+  /* width: 100em; */
+  /* flex: 1; */
+  align-items: center;
+  position: sticky;
+  /* top: 0; */
+  /* z-index: 100; */
+  flex-direction: row;
+  justify-content: space-between;
+  /* height: 100px; */
+}
+
+.header__logoJateng {
+  display: flex;
+  /* /* flex-direction: column; */
+  align-items: center;
+}
+
+.header__logoJateng > img {
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: -50px; */
+  margin-left: -10px;
+}
+
+.header__title > h1 {
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.header__logoPublikasi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 50px;
+  /* margin-left: 150px; */
+}
+
+@font-face {
+  font-family: "pizzadude";
+  src: url(./BALLSONTHERAMPAGE.ttf);
+}
+.publikasi_distibusi {
+  font-size: 40px;
+  color: red;
+  font-family: "pizzadude";
+}
+
+.header__titlePublikasi {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: -50px; */
+  margin-left: -10px;
+}
+
+.header__logoPublikasi > img {
+  margin-top: 10px;
+  object-fit: contain;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 90px;
+  /* width: ; */
+}
+
+.header__logoJatengGayeng {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.header__logoJatengGayeng > img {
+  height: 70px;
+}
+
+.main_content_bendung {
+  display: flex;
+  height: 100vh;
+  flex: 1;
+  /* flex-wrap: nowrap; */
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* background-color: DodgerBlue; */
+  justify-content: center;
+}
+
+.bendung__mejagong {
+  margin-top: 20px;
+  margin-left: 20px;
+  /* display: flex; */
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  background-color: snow;
+}
+
+.bendung__padurekso {
+  margin-top: 20px;
+  margin-left: 20px;
+  /* display: flex; */
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.bendung__dukuhJati {
+  margin-top: 20px;
+  margin-left: 20px;
+  /* display: flex; */
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.container-fluid {
+  background-color: #ffffff;
+  /* position: fixed; */
+}
+
+.footer {
+  /* display: flex; */
+
+  /* background-color: #eef5f9; */
+  /* position: fixed; */
+  height: 100%;
+  padding: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.content__button {
+  /* display: flex; */
+  /* background-color: violet; */
+}
+
+.bendung__mejagongContain > h3 {
+  margin-left: 100px;
+  font-size: 20px;
+  /* align-items: center; */
+}
+
+.bendung__padureksoContain > h3 {
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.bendung__dukuhJatiContain > h3 {
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.button__login {
+  /* margin-top: 20px; */
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: thistle; */
+}
+
+.content__button {
+  margin-top: 20px;
+}
+
+.ondol_merah_grad {
+  background-color: aquamarine;
+}
+
+.back__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.back__wrapper button {
+  margin-bottom: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 1px solid #dafaf9;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.back__wrapper button:hover {
+  background-color: blanchedalmond;
+}

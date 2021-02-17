@@ -72,7 +72,7 @@
               <button class="rotate">Rotate</button>
               <button class="remove">Remove</button>
           </div>
-      </div><div class="bahan bulet" style="position: absolute; top: 176px; left: 920px;">
+      </div><div class="bahan bulet animated" style="position: absolute; top: 176px; left: 920px; background-color: rgb(245, 10, 10);">
           
       </div><div class="bahan panah" data-rot="90" style="position: absolute; top: 238px; left: 880px; transform: rotate(90deg);">
           <div class="popup" style="display: none;">
@@ -520,65 +520,7 @@
           </tr>
           
         </tbody>
-      </table><div class="bahan text" contenteditable="true" style="position: absolute; top: 153px; left: 350px;">Halo gaes</div><table class="bahan table" data-rot="0" style="position: absolute; top: 210px; left: 101px;">
-          <thead>
-            <tr><th colspan="2">
-              <select name="lokasi" class="lokasi">
-                                  <option value=" B. Pr. 1 Ki" style="text-align:center;"> B. Pr. 1 Ki
-                                    </option><option value=" B. Pr. 2 Ka" style="text-align:center;"> B. Pr. 2 Ka
-                                    </option><option value=" B. Pr. 2 Ki" style="text-align:center;"> B. Pr. 2 Ki
-                                    </option><option value=" B. Pr. 2 Tg" style="text-align:center;"> B. Pr. 2 Tg
-                                    </option><option value=" B. Pr. 3 Ka" style="text-align:center;"> B. Pr. 3 Ka
-                                    </option><option value=" B. Pr. 3 Ki" style="text-align:center;"> B. Pr. 3 Ki
-                                    </option><option value=" B. Pr. 3 Tg" style="text-align:center;"> B. Pr. 3 Tg
-                                    </option><option value=" B. Ka. 1 Ka" style="text-align:center;"> B. Ka. 1 Ka
-                                    </option><option value=" B. Ka. 2 Ka" style="text-align:center;"> B. Ka. 2 Ka
-                                    </option><option value=" B. Ka. 2 Ki" style="text-align:center;"> B. Ka. 2 Ki
-                                    </option><option value=" B. Ka. 2 Tg" style="text-align:center;"> B. Ka. 2 Tg
-                                    </option><option value=" B. Ka. 3 Ka" style="text-align:center;"> B. Ka. 3 Ka
-                                    </option><option value=" B. Ka. 3 Ki" style="text-align:center;"> B. Ka. 3 Ki
-                                    </option><option value=" B. Ka. 4 Ka" style="text-align:center;"> B. Ka. 4 Ka
-                                    </option><option value=" B. Ka. 5 Ka" style="text-align:center;"> B. Ka. 5 Ka
-                                    </option><option value=" B. Ka. 6 Ka" style="text-align:center;"> B. Ka. 6 Ka
-                                    </option><option value=" B. Ka. 7 Ka" style="text-align:center;"> B. Ka. 7 Ka
-                                    </option><option value=" B. Ka. 7 Ki" style="text-align:center;"> B. Ka. 7 Ki
-                                    </option><option value=" B. Wp. 1 Ki" style="text-align:center;"> B. Wp. 1 Ki
-                                    </option><option value=" B. Wp. 2 Ka" style="text-align:center;"> B. Wp. 2 Ka
-                                    </option><option value=" B. Wp. 2 Ki" style="text-align:center;"> B. Wp. 2 Ki
-                                    </option><option value=" B. Ba. 1 Ki" style="text-align:center;"> B. Ba. 1 Ki
-                                    </option><option value=" B. Ba. 1 Tg" style="text-align:center;"> B. Ba. 1 Tg
-                                    </option><option value=" B. Ba. 2 Ka" style="text-align:center;"> B. Ba. 2 Ka
-                                    </option><option value=" B. Ba. 2 Ki" style="text-align:center;"> B. Ba. 2 Ki
-                                    </option><option value=" B. Ba. 2 Tg" style="text-align:center;"> B. Ba. 2 Tg
-                                    </option><option value=" B. Kl. 1 Ki" style="text-align:center;"> B. Kl. 1 Ki
-                                    </option><option value=" B. Kl. 1 Ki&quot;" style="text-align:center;"> B. Kl. 1 Ki"
-                                    </option><option value=" B. Kl. 2 Ka" style="text-align:center;"> B. Kl. 2 Ka
-                                    </option><option value=" B. Kl. 2 Ki" style="text-align:center;"> B. Kl. 2 Ki
-                                    </option><option value=" B. Kl. 3 Ki" style="text-align:center;"> B. Kl. 3 Ki
-                                    </option><option value=" B. Kl. 4 Ki" style="text-align:center;"> B. Kl. 4 Ki
-                                    </option><option value="B. Ts. 1 Ki" style="text-align:center;">B. Ts. 1 Ki
-                                    </option><option value=" B. Gjl. 1 Ka" style="text-align:center;"> B. Gjl. 1 Ka
-                                    </option><option value=" B. Gjl. 1 Ki" style="text-align:center;"> B. Gjl. 1 Ki
-                                    </option><option value=" B. Kg. 1 Ka" style="text-align:center;"> B. Kg. 1 Ka
-                                    </option><option value=" B. Kg. 2 Ka" style="text-align:center;"> B. Kg. 2 Ka
-                                    </option><option value=" B. Kg. 2 Ki" style="text-align:center;"> B. Kg. 2 Ki
-                                    </option><option value=" B. Pr. 3" style="text-align:center;"> B. Pr. 3
-                                    </option><option value=" Bendung Padurekso" style="text-align:center;"> Bendung Padurekso
-                                    <!-- <option value="satu">Satu</option>
-                  <option value="Dua" selected>Dua</option>
-                  <option value="Tiga">Tiga</option> -->
-              </option></select>
-            </th>
-          </tr></thead>
-          <tbody class="tbody">
-            <tr>
-              <td>Area</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Q Alir</td>
-              <td></td>
-            </tr>
+      </table><div class="bahan text" contenteditable="true" style="position: absolute; top: 153px; left: 350px;">Halo gaes</div><div class="bahan panah" data-rot="0" style="position: absolute; top: 186px; left: 935px;">
 
-          </tbody>
-        </table></div>
+        </div><div class="bahan text animated" contenteditable="true" data-rot="15" style="position: absolute; top: 117px; left: 939px; background-color: rgb(227, 109, 109); transform: rotate(15deg);">
+          Reza kr dijahh salawase</div></div>

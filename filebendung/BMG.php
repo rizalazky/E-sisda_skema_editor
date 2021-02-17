@@ -187,7 +187,7 @@
         </tbody>
       </table><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 173px; left: 278px;">B.Lo 3 sd 6</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 173px; left: 463px; color: rgb(247, 8, 8);">
             B. Lo. 3</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 169px; left: 676px; color: rgb(206, 59, 59);">
-            B. Mg. 1</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 174px; left: 852px; color: rgb(25, 31, 210);">B.PADARAPAH<div><br></div></div><div class="bahan panah" data-rot="0" style="position: absolute; top: 603px; left: 538px; width: 300px;">
+            B. Mg. 1</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 251px; left: 973px; color: rgb(255, 255, 255); background-color: rgb(255, 255, 255);">B.PADARAPAH<div><br></div></div><div class="bahan panah" data-rot="0" style="position: absolute; top: 603px; left: 538px; width: 300px;">
           
       </div><div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 595px; left: 693px; background-color: rgb(252, 3, 3);">
           
