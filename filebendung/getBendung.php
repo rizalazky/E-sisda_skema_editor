@@ -1,6 +1,6 @@
 <?php
     include './../conn.php';
-    $query=mysqli_query($conn,"SELECT max(id) as id,lokasi,a_tanam,q_diberikan FROM alokasi WHERE di='$_GET[kode_bendung]' GROUP BY lokasi ORDER BY id DESC");
+    $query=mysqli_query($conn,"select id,lokasi,a_tanam,q_diberikan FROM alokasi WHERE id in (SELECT MAX(alo.id) FROM alokasi alo GROUP BY alo.lokasi) AND di='$_GET[kode_bendung]' ORDER BY id DESC");
   
     $data=array();
     if(!$query){
@@ -13,5 +13,3 @@
     }
     
     echo json_encode($data);
-
-?>

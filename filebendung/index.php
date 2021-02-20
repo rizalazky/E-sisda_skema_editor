@@ -90,14 +90,20 @@
         `
           }
         }
-        fetchData()
+
+        setInterval(() => {
+          fetchData()
+        }, 1000)
+
 
         function fetchData() {
+          console.log('test')
           fetch('http://localhost/E-sisda_skema_editor/filebendung/getBendung.php?kode_bendung=' + KodeBendung).
           then(res => {
             return res.json()
           }).then(result => {
             data = result
+            console.log('h: ', result)
             setValueTable()
           }).catch(err => console.log(err))
         }
