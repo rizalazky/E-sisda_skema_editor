@@ -16,6 +16,7 @@
 .table{
     border: none;
     border: 1px solid black;
+    z-index: 100;
 }
 
 .table th{
@@ -34,7 +35,7 @@
 }
 
 .context{
-    min-height: 200vh;
+    min-height: 300vh;
     flex: 1;
     /* overflow:auto; */
     position: relative;
@@ -53,6 +54,7 @@
     height: 3px;
     width: 100px;
     display: inline-block;
+    z-index: -1;
     background-color: black;
 }
 
