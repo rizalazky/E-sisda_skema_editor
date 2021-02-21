@@ -47,10 +47,10 @@ save.addEventListener("click", function (e) {
 
 // tools events
 document.getElementsByClassName("tools")[0].addEventListener("click", (ev) => {
-  console.log(ev.target);
+  
   const target = ev.target;
   if (target.classList.contains("tools-item")) {
-    console.log("target");
+    
     let childs = tools.children;
     let bahan;
     for (let index = 0; index < childs.length; index++) {
@@ -58,13 +58,17 @@ document.getElementsByClassName("tools")[0].addEventListener("click", (ev) => {
         bahan = childs[index];
       }
     }
+    const conta=document.getElementsByClassName('container')[0];
     const newEl = bahan.cloneNode(true);
+
     newEl.style.position = "absolute";
-    newEl.style.top = "20%";
-    newEl.style.left = "20%";
-    context.appendChild(newEl);
+    newEl.style.top = conta.scrollTop+100+"px";
+    newEl.style.left = "30%";
+ 
+    context.appendChild(newEl)
   }
 });
+
 
 context.addEventListener("dblclick", (event) => {
   let target = event.target;
@@ -149,24 +153,20 @@ context.addEventListener("mousedown", (event) => {
   pos3 = event.clientX;
   pos4 = event.clientY;
   if (event.target.classList.contains("bahan")) {
+    
     context.addEventListener("mousemove", mouseMove);
     let top = event.target.offsetY;
     let left = event.target.offsetX;
-
+    
     function mouseMove(mo) {
       mo.preventDefault();
       pos1 = pos3 - mo.clientX;
       pos2 = pos4 - mo.clientY;
       pos3 = mo.clientX;
       pos4 = mo.clientY;
-
       event.target.style.top = event.target.offsetTop - pos2 + "px";
       event.target.style.left = event.target.offsetLeft - pos1 + "px";
-      // top=mo.offsetY
-      // left=Number(mo.clientX)-Number(context.offsetLeft)
-      // console.log(event.target.offsetTop,'offsetTop target')
-      // event.target.style.top=top+"px"
-      // event.target.style.left=left+"px"
+      
     }
     context.addEventListener("mouseup", (up) => {
       context.removeEventListener("mousemove", mouseMove);

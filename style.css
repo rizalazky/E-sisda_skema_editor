@@ -65,6 +65,7 @@
     flex: 1;
     position: relative;
 }
+
 .color-picker {
   height: 20px;
   width: 20px;
@@ -74,6 +75,7 @@
 
 .tools .bahan {
   display: none;
+
 }
 
 .text {
@@ -86,6 +88,7 @@
   margin-bottom: 20px;
   align-items: center;
   cursor: grab;
+
 }
 
 .panah {
