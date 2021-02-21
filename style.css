@@ -64,15 +64,12 @@
     min-height: 500vh;
     flex: 1;
     position: relative;
-<<<<<<< HEAD
-=======
 }
 .color-picker {
   height: 20px;
   width: 20px;
   border-radius: 50%;
   outline: none;
->>>>>>> c4c967f6a48050a47456eb810b9dbd93d26c38d3
 }
 
 .tools .bahan {
