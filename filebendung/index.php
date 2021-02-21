@@ -18,7 +18,7 @@
   <?php
   include '../conn.php';
   if (!empty($_GET['kode_bendung'])) { ?>
-    <div class="headerCSS">
+    <!-- <div class="headerCSS">
       <div class="header__logoJateng">
         <img class="animate__animated animate__swing animate__infinite infinite" src="index_files/logo_jateng.png" alt="Logo" />
         <div class="header__title">
@@ -40,7 +40,7 @@
       <div class="header__logoJatengGayeng">
         <img class="animate__animated animate__flipInY" src="index_files/logoJatengGayeng.png" alt="" srcset="" />
       </div>
-    </div>
+    </div> -->
     <div class='container'>
     <?php
     include($_GET['kode_bendung'] . ".php");
