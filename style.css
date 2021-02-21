@@ -1,158 +1,167 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-    overflow: hidden;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  overflow: hidden;
 }
 
-.table{
-    border: none;
-    
+.table {
+  border: none;
 }
 
-.table th{
-    background-color: black;
+.table th {
+  background-color: black;
 }
 
-.table th select{
-    text-align-last: center;
-    color: white;
-    outline: none;
-    background-color: black;
+.table th select {
+  text-align-last: center;
+  color: white;
+  outline: none;
+  background-color: black;
 }
 
-.table tr td{
-    border-bottom: 1px solid black;
+.table tr td {
+  border-bottom: 1px solid black;
 }
 
-.container{
-    display: flex;
-    max-height: 91vh;
-    overflow: auto;
+.container {
+  display: flex;
+  max-height: 91vh;
+  overflow: auto;
 }
 
-.tools{
-    padding: 10px;
-    border: 1px solid rgba(0, 0, 0, .125);
-    background-color: rgba(0, 0, 0, .125);
-    position: fixed;
-    z-index: 2;
-    height: 100%;
+.tools {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(0, 0, 0, 0.125);
+  position: fixed;
+  z-index: 2;
+  height: 100%;
 }
 
+.context {
+  min-height: 200vh;
+  flex: 1;
+  position: relative;
+}
 
+.pane ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.tools-item {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+<<<<<<< HEAD
 .context{
     min-height: 500vh;
     flex: 1;
     position: relative;
+=======
+.color-picker {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  outline: none;
+>>>>>>> aafca4e9fd4431fb7fd0ec54bb6e81655e0fffd6
 }
 
-
-.pane ul{
-    display: flex;
-    flex-direction: column;
+.tools .bahan {
+  display: none;
 }
 
-.tools-item{
-    padding: 10px;
-    border: 1px solid black;
-
+.text {
+  padding: 5px;
+  border-radius: 5px;
 }
 
-.color-picker{
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    outline: none;
+.bahan {
+  z-index: 3;
+  margin-bottom: 20px;
+  align-items: center;
+  cursor: grab;
 }
 
-.tools .bahan{
-    display: none;
+.panah {
+  height: 3px;
+  width: 100px;
+  display: inline-block;
+  background-color: black;
 }
 
-.text{
-    padding: 5px;
-    border-radius: 5px;
+.bulet {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: black;
+  z-index: 4;
+  border: 3px solid black;
 }
 
-
-
-.bahan{
-    z-index: 3;
-    margin-bottom: 20px;
-    align-items: center;
-    cursor: grab;
+.popup {
+  padding: 5px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  width: 200px;
+  z-index: 8;
 }
 
-.panah{
-    height: 3px;
-    width: 100px;
-    display: inline-block;
-    background-color: black;
+.popup .popup-item {
+  padding: 5px;
+  margin-right: 7px;
+  margin-left: 7px;
+  list-style: none;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.bulet{
-    height: 12px;
-    width: 12px;
-    border-radius: 50%;
-    background-color: black;
-    z-index: 4;
-    border: 3px solid black;
+.popup-item:hover {
+  background-color: rgba(0, 0, 0, 0.125);
 }
 
-.popup{
-    padding: 5px;
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  z-index: 5;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(0, 0, 0, 0.125);
+}
+
+.action button {
+  padding: 10px;
+}
+
+.animated {
+  animation: dapdip infinite 1s;
+}
+
+#modal-resize {
+  display: none;
+  padding: 10px;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+@keyframes dapdip {
+  from {
     background-color: white;
-    border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: 5px;
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    z-index: 8;
-}
-
-.popup .popup-item{
-    padding: 5px;
-    margin-right: 7px;
-    margin-left: 7px;
-    list-style: none;
-    cursor: pointer;
-    text-align: center;
-    border-bottom: 1px solid rgba(0, 0, 0, .125);
-}
-
-.popup-item:hover{
-    background-color: rgba(0, 0, 0, .125);
-}
-
-.action{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 7px;
-    z-index: 5;
-    border: 1px solid rgba(0, 0, 0, .125);
-    background-color: rgba(0, 0, 0, .125);
-}
-
-.action button{
-    padding: 10px;
-}
-
-.animated{
-    animation: dapdip infinite 1s;
-}  
-
-@keyframes dapdip{
-    from{
-        background-color: white;
-    }
-    to{
-        
-    }
+  }
+  to {
+  }
 }
