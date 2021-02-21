@@ -25,7 +25,7 @@
   <div class="bahan panah" data-rot="0" style="position: absolute; top: 1174px; left: 214px; width: 500px;">
 
   </div>
-  <div class="bahan panah" data-rot="90" style="position: absolute; top: 1467px; left: -151px; transform: rotate(90deg); width: 2850px;">
+  <div class="bahan panah" data-rot="90" style="position: absolute; top: 1468px; left: -151px; transform: rotate(90deg); width: 2850px;">
 
   </div>
 
@@ -8477,7 +8477,7 @@
   <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1108px; left: 1263px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
 
   </div>
-  
+
   <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1219px; left: 1263px; background-color: rgb(38, 255, 113); height: 15px; width: 15px;">
 
   </div>
