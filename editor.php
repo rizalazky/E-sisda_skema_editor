@@ -26,6 +26,13 @@ if (!empty($_GET['submit'])) {
 
 <body>
   <?php include 'loading.html' ?>
+  <div id="modal-resize">
+    <label for="heigth">Height</label>
+    <input type="text" name="height" id="inp-height" class='inpResize'>
+    <label for="width">Width</label>
+    <input type="text" name="width" id="inp-width" class='inpResize'>
+  </div>
+
   <ul class='popup'>
     <li class='bg popup-item'>
       <div>
