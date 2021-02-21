@@ -60,18 +60,10 @@
   border: 1px solid black;
 }
 
-<<<<<<< HEAD
 .context{
     min-height: 500vh;
     flex: 1;
     position: relative;
-=======
-.color-picker {
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  outline: none;
->>>>>>> aafca4e9fd4431fb7fd0ec54bb6e81655e0fffd6
 }
 
 .tools .bahan {
