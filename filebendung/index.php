@@ -18,17 +18,17 @@
   <?php
   include '../conn.php';
   if (!empty($_GET['kode_bendung'])) { ?>
-    <!-- <div class="headerCSS">
+    <div class="headerCSS">
       <div class="header__logoJateng">
-        <img class="animate__animated animate__swing animate__infinite infinite" src="index_files/logo_jateng.png" alt="Logo" />
+        <img class="animate__animated animate__swing animate__infinite infinite" src="../assets/header/logo_jateng.png" alt="Logo" />
         <div class="header__title">
           <h1>APEMASI</h1>
-          <span> BPSDA PEMALI COMAL</span>
+          <span> BPSDA BODRI KUTO</span>
         </div>
       </div>
 
       <div class="header__logoPublikasi">
-        <img src="index_files/88b899f98e7355b3690480284e69655b_240x150.png" alt="" srcset="" />
+        <img src="../assets/header/gunung.png" alt="" srcset="" />
         <div class="header__title">
           <span class="publikasi_distibusi">
             <marquee scrollamount="15">
@@ -38,9 +38,9 @@
       </div>
 
       <div class="header__logoJatengGayeng">
-        <img class="animate__animated animate__flipInY" src="index_files/logoJatengGayeng.png" alt="" srcset="" />
+        <img class="animate__animated animate__flipInY" src="../assets//header//logoJatengGayeng.png" alt="" srcset="" />
       </div>
-    </div> -->
+    </div>
     <div class='container'>
     <?php
     include($_GET['kode_bendung'] . ".php");
@@ -121,6 +121,9 @@
         }
       </script>
     </div>
+    <!-- <div class="footer">
+      Copyright @2021 pemalicomal
+    </div> -->
 </body>
 
 </html>

@@ -54,9 +54,9 @@
 .headerCSS {
   background-color: black;
   
-  /* background-color: #48d1cc; */
+  background-color: #48d1cc;
   display: flex;
-  /* width: 100em; */
+  width: 90em;
   /* flex: 1; */
   align-items: center;
   position: sticky;
@@ -109,7 +109,7 @@
 
 @font-face {
   font-family: "pizzadude";
-  src: url(./BALLSONTHERAMPAGE.ttf);
+  src: url(./assets/header/BALLSONTHERAMPAGE.ttf);
 }
 .publikasi_distibusi {
   font-size: 40px;
