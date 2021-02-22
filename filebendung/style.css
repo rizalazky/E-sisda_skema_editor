@@ -39,7 +39,7 @@
     flex: 1;
     /* overflow:auto; */
     position: relative;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
 }
 
 .bahan{
@@ -92,7 +92,12 @@
 
 .animated{
     animation: dapdip infinite 1s;
-}  
+} 
+
+.text {
+    font-weight: bold;
+    /* width: 100px; */
+}
 
 @keyframes dapdip{
     from{

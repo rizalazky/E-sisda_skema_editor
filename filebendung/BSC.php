@@ -8,7 +8,7 @@
   <div class="bahan panah" data-rot="0" style="position: absolute; top: 131px; left: 1177px;">
 
   </div>
-  <div class="bahan panah" data-rot="360" style="position: absolute; top: 220px; left: 670px; transform: rotate(360deg); width: 600px;">
+  <div class="bahan panah" data-rot="360" style="position: absolute; top: 221px; left: 667px; transform: rotate(360deg); width: 600px;">
 
   </div>
   <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 213px; left: 1264px; background-color: rgb(255, 188, 4); width: 15px; height: 15px;">
@@ -75,7 +75,7 @@
   <div class="bahan panah" data-rot="0" style="position: absolute; top: 1082px; left: 669px; width: 50px;">
 
   </div>
-  <div class="bahan panah" data-rot="0" style="position: absolute; top: 981px; left: 670px; width: 50px;">
+  <div class="bahan panah" data-rot="0" style="position: absolute; top: 996px; left: 670px; width: 50px;">
 
   </div>
 
@@ -1946,7 +1946,7 @@
 
     </tbody>
   </table>
-  <table class="bahan table" data-rot="0" style="position: absolute; top: 976px; left: 717px;">
+  <table class="bahan table" data-rot="0" style="position: absolute; top: 988px; left: 716px;">
     <thead>
       <tr>
         <th colspan="2">
@@ -2086,7 +2086,7 @@
 
     </tbody>
   </table>
-  <table class="bahan table" data-rot="0" style="position: absolute; top: 1073px; left: 715px;">
+  <table class="bahan table" data-rot="0" style="position: absolute; top: 1069px; left: 714px;">
     <thead>
       <tr>
         <th colspan="2">
@@ -8360,9 +8360,7 @@
   <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 211px; left: 1011px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 210px; left: 658px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
 
-  </div>
   <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 625px; left: 659px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
 
   </div>
@@ -8392,7 +8390,7 @@
   <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 911px; left: 658px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
 
   </div>
-  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 972px; left: 659px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
+  <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 988px; left: 659px; background-color: rgb(0, 247, 255); height: 15px; width: 15px;">
 
   </div>
   <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 1073px; left: 660px; background-color: rgb(2, 255, 90); height: 15px; width: 15px;">
@@ -8523,4 +8521,111 @@
   <div class="bahan bulet animated" data-rot="0" style="position: absolute; top: 2873px; left: 1263px; background-color: rgb(49, 249, 255); height: 15px; width: 15px;">
 
   </div>
-</div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 117px; left: 1284px; color: rgb(255, 0, 0); width: 70px;">CSc. 1
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 208px; left: 1285px; color: rgb(255, 0, 0); width: 70px;">
+    BSc. 1
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 346px; left: 1286px; color: rgb(255, 0, 0); width: 70px;">
+    CSc.Ki. 1
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 456px; left: 1285px; color: rgb(255, 0, 0); width: 70px;">
+    CSc.Ki. 2
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 563px; left: 1284px; color: rgb(255, 0, 0); width: 70px;">
+    CSc.Ki. 3
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 664px; left: 1283px; color: rgb(255, 0, 0); width: 70px;">
+    CSc.Ki. 4
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 765px; left: 1285px; color: rgb(255, 0, 0); width: 70px;">
+    BSc.Ki. 1
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 877px; left: 1285px; color: rgb(255, 0, 0); width: 70px;">
+    CSc.Ki. 5
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 983px; left: 1284px; color: rgb(255, 0, 0); width: 70px;">
+    CSc.Ki. 6
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1105px; left: 1285px; color: rgb(255, 0, 0); width: 70px;">
+    CSc.Ki. 7
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1217px; left: 1285px; color: rgb(255, 0, 0); width: 70px;">
+    CSc.Ki. 8
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1338px; left: 1286px; color: rgb(255, 0, 0); width: 70px;">
+    BSc.Ki. 2
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1453px; left: 1286px; color: rgb(255, 0, 0); width: 70px;">
+    BSc.Ki. 3
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1573px; left: 1287px; color: rgb(255, 0, 0); width: 70px;">
+    BSc.Ki. 4
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1691px; left: 1284px; color: rgb(255, 0, 0); width: 70px;">
+    CSc.Ki. 9
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1799px; left: 1283px; color: rgb(255, 0, 0); width: 80px;">
+    CSc.Ki. 10
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1915px; left: 1281px; color: rgb(255, 0, 0); width: 80px;">
+    CSc.Ki. 11
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 2037px; left: 1283px; color: rgb(255, 0, 0); width: 80px;">
+    CSc.Ki. 12
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 2169px; left: 1284px; color: rgb(255, 0, 0); width: 80px;">
+    CSc.Ki. 13
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 2269px; left: 1284px; color: rgb(255, 0, 0); width: 80px;">
+    CSc.Ki. 14
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 2369px; left: 1284px; color: rgb(255, 0, 0); width: 80px;">
+    CSc.Ki. 15
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 2483px; left: 1284px; color: rgb(255, 0, 0); width: 80px;">
+    BSc.Ki. 5
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 2612px; left: 1285px; color: rgb(255, 0, 0); width: 80px;">
+    CSc.Ki. 16
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 2736px; left: 1285px; color: rgb(255, 0, 0); width: 80px;">
+    CSc.Ki. 17
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 2869px; left: 1282px; color: rgb(255, 0, 0); width: 80px;">
+    BSc.Ki. 6
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 184px; left: 1121px; color: rgb(255, 0, 0);">
+    CSc.Ka. 1
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 186px; left: 987px; color: rgb(255, 0, 0);">
+    CSc.Ka. 2
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 186px; left: 848px; color: rgb(255, 0, 0);">
+    CSc.Ka. 3</div>
+  <div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 186px; left: 706px; color: rgb(255, 0, 0);">
+    CSc.Ka. 4</div>
+  <div class="bahan text" contenteditable="true" data-rot="810" style="position: absolute; top: 135px; left: 1255px; color: rgb(0, 8, 255); transform: rotate(810deg); width: 200px;">
+    SALURAN INDUK SUCEN
+  </div>
+  <div class="bahan text" contenteditable="true" data-rot="810" style="position: absolute; top: 1205px; left: 1279px; color: rgb(0, 8, 255); transform: rotate(810deg); width: 200px;">
+    SALURAN SEKUNDER SUCEN KIRI
+  </div>
+<div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 344px; left: 581px; color: rgb(255, 0, 0);">
+          CSc.Ka. 5
+        </div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 431px; left: 582px; color: rgb(255, 0, 0);">
+          CSc.Ka. 6</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 527px; left: 583px; color: rgb(255, 0, 0);">
+          CSc.Ka. 7</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 622px; left: 583px; color: rgb(255, 0, 0);">
+          CSc.Ka. 8</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 722px; left: 581px; color: rgb(255, 0, 0);">
+          CSc.Ka. 9</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 820px; left: 580px; color: rgb(255, 5, 5);">
+          BSc.Ka. 1 
+        </div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 986px; left: 580px; color: rgb(231, 13, 13);">
+          BSc.Ka. 2</div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 907px; left: 683px;"><span style="color: rgb(236, 19, 19);">CSc.Ka. 10</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1070px; left: 577px;"><span style="color: rgb(236, 19, 19);">CSc.Ka. 11</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1189px; left: 591px; color: rgb(233, 1, 1);">
+          BSc.Ka. 3 
+        </div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1139px; left: 443px; color: rgb(255, 0, 0);">
+          CKd. 1
+        </div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1315px; left: 147px; color: rgb(255, 0, 0);"><span style="color: rgb(226, 24, 24);">CKd. 2</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1423px; left: 147px;"><span style="color: rgb(226, 24, 24);">CKd. 3</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1527px; left: 149px;"><span style="color: rgb(226, 24, 24);">BKd. 1</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1635px; left: 148px;"><span style="color: rgb(226, 24, 24);">CKd. 4</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1745px; left: 149px;"><span style="color: rgb(226, 24, 24);">CKd. 5</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1850px; left: 150px;"><span style="color: rgb(226, 24, 24);">CKd. 6</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1962px; left: 149px;"><span style="color: rgb(226, 24, 24);">CKd. 7</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 2106px; left: 186px;"><span style="color: rgb(226, 24, 24);">BKd. 2</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1317px; left: 680px;"><font color="#e90101">Cr.GL.1</font></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1422px; left: 600px;"><span style="color: rgb(233, 1, 1);">BGL.1</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1523px; left: 679px;"><span style="color: rgb(233, 1, 1);">BGL.2</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1634px; left: 680px;"><span style="color: rgb(233, 1, 1);">Cr.GL.2</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1741px; left: 682px;"><span style="color: rgb(233, 1, 1);">BGL.2</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1853px; left: 679px;"><span style="color: rgb(233, 1, 1);">Cr.GL.3</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 1965px; left: 682px;"><span style="color: rgb(233, 1, 1);">BGL.4</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 2078px; left: 679px;"><span style="color: rgb(233, 1, 1);">BGL.5</span></div><div class="bahan text" contenteditable="true" data-rot="0" style="position: absolute; top: 2231px; left: 644px;"><span style="color: rgb(233, 1, 1);">BGL.6</span></div><div class="bahan text" contenteditable="true" data-rot="90" style="position: absolute; top: 1749px; left: 668px; color: rgb(1, 29, 239); transform: rotate(90deg);">
+          SALURAN SEKUNDER GILING
+        </div><div class="bahan text" contenteditable="true" data-rot="270" style="position: absolute; top: 1752px; left: -25px; color: rgb(0, 30, 255); transform: rotate(270deg);">
+          SALURAN SEKUNDER KADIREJO
+        </div></div>
