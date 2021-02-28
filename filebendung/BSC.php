@@ -8628,4 +8628,62 @@
           SALURAN SEKUNDER GILING
         </div><div class="bahan text" contenteditable="true" data-rot="270" style="position: absolute; top: 1752px; left: -25px; color: rgb(0, 30, 255); transform: rotate(270deg);">
           SALURAN SEKUNDER KADIREJO
-        </div></div>
+        </div>
+        <div class="bahan text" id="nl1" data-nilaiid="" data-qberikan="Kd. 2 ka,Kd. 2 ki" contenteditable="true" data-rot="0" style="position: absolute; top: 2026px; left: 154px;">
+          </div><div class="bahan text" id="nl2" data-nilaiid="nl1" data-qberikan="CKd. 7 ki" contenteditable="true" data-rot="0" style="position: absolute; top: 1910px; left: 152px;">
+          </div><div class="bahan text" id="nl3" data-nilaiid="nl2" data-qberikan="CKd. 6 ki" contenteditable="true" data-rot="0" style="position: absolute; top: 1796px; left: 152px;">
+          Nilai 3</div><div class="bahan text" id="nl4" data-nilaiid="nl3" data-qberikan="CKd. 5 ki" contenteditable="true" data-rot="0" style="position: absolute; top: 1688px; left: 150px;">
+          Nilai 4</div><div class="bahan text" id="nl5" data-nilaiid="nl4" data-qberikan="CKd. 4 ki" contenteditable="true" data-rot="0" style="position: absolute; top: 1576px; left: 148px;">
+          Nilai 5</div><div class="bahan text" id="nl6" data-nilaiid="nl5" data-qberikan="Kd. 1 ki" contenteditable="true" data-rot="0" style="position: absolute; top: 1474px; left: 146px;">
+          Nilai 6</div><div class="bahan text" id="nl7" data-nilaiid="nl6" data-qberikan="CKd. 3 ki" contenteditable="true" data-rot="0" style="position: absolute; top: 1366px; left: 150px;">
+          Nilai 7</div><div class="bahan text" id="nl8" data-nilaiid="nl7" data-qberikan="CKd. 2 ki" contenteditable="true" data-rot="0" style="position: absolute; top: 1136px; left: 256px;">
+          Nilai 8</div><div class="bahan text" id="nl9" data-nilaiid="nl8" data-qberikan="CKd. 1 ki" contenteditable="true" data-rot="0" style="position: absolute; top: 1136px; left: 546px;">
+          Nilai 9</div><div class="bahan text" id="nl10" data-nilaiid="" data-qberikan="GL. 6 Ka,GL. 6 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 2152px; left: 678px;">
+          Nilai 10</div><div class="bahan text" id="nl11" data-nilaiid="nl10" data-qberikan="GL. 5 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 2018px; left: 682px;">
+          Nilai 11</div><div class="bahan text" id="nl12" data-nilaiid="nl11" data-qberikan="GL. 4 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1908px; left: 680px;">
+          Nilai 12</div><div class="bahan text" id="nl13" data-nilaiid="nl12" data-qberikan="Cr.GL. 3 Ka" data-sum="cr1,cr2" contenteditable="true" data-rot="0" style="position: absolute; top: 1796px; left: 682px;">
+          Nilai 13</div><div class="bahan text" id="nl14" data-nilaiid="nl13" data-qberikan="GL. 3 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1684px; left: 680px;">
+          Nilai 14</div><div class="bahan text" id="nl15" data-nilaiid="nl14" data-qberikan="Cr.GL. 2 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1578px; left: 680px;">
+          Nilai 15</div><div class="bahan text" id="nl16" data-nilaiid="nl15" data-qberikan="GL. 2 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1468px; left: 592px;">
+          Nilai 16</div><div class="bahan text" id="nl17" data-nilaiid="nl16" data-qberikan="GL. 1 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 1368px; left: 684px;">
+          Nilai 17</div><div class="bahan text" id="nl18" data-nilaiid="nl17" data-qberikan="Cr.GL. 1 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1230px; left: 598px;">
+          Nilai 18</div><div class="bahan text" id="nl19" data-nilaiid="nl9,nl18" data-qberikan="Sc.Ka. 3 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 1104px; left: 594px;">
+          Nilai 19</div><div class="bahan text" id="nl20" data-nilaiid="nl19" data-qberikan="CSc.Ka. 11 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 1026px; left: 592px;">
+          Nilai 20</div><div class="bahan text" id="nl21" data-nilaiid="nl20" data-qberikan="Sc.Ka. 2 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 940px; left: 686px;">
+          Nilai 21</div><div class="bahan text" id="nl22" data-nilaiid="nl21" data-qberikan="CSc.Ka. 10 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 856px; left: 594px;">
+          Nilai 22</div><div class="bahan text" id="nl23" data-nilaiid="nl22" data-qberikan="Sc.Ka. 1 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 763px; left: 592px;">
+          Nilai 23</div><div class="bahan text" id="nl24" data-nilaiid="nl23" data-qberikan="CSc.Ka. 9 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 674px; left: 592px;">
+          Nilai 24</div><div class="bahan text" id="nl25" data-nilaiid="nl24" data-qberikan="CSc.Ka. 8 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 577px; left: 594px;">
+          Nilai 25</div><div class="bahan text" id="nl26" data-nilaiid="nl25" data-qberikan="CSc.Ka. 7 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 481px; left: 593px;">
+          Nilai 26</div><div class="bahan text" id="nl27" data-nilaiid="nl26" data-qberikan="CSc.Ka. 6 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 389px; left: 594px;">
+          Nilai 27</div><div class="bahan text" id="nl28" data-nilaiid="nl27" data-qberikan="CSc.Ka. 5 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 293px; left: 596px;">
+          Nilai 28</div><div class="bahan text" id="nl29" data-nilaiid="nl28" data-qberikan="CSc.Ka. 4 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 231px; left: 786px;">
+          Nilai 29</div><div class="bahan text" id="nl30" data-nilaiid="nl29" data-qberikan="CSc.Ka. 3 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 232px; left: 925px;">
+          Nilai 30</div><div class="bahan text" id="nl31" data-nilaiid="nl30" data-qberikan="CSc.Ka. 2 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 230px; left: 1058px;">
+          Nilai 31</div><div class="bahan text" id="nl32" data-nilaiid="nl31" data-qberikan="CSc.Ka. 1 Ki" contenteditable="true" data-rot="0" style="position: absolute; top: 231px; left: 1190px;">
+          Nilai 32</div><div class="bahan text" id="nl33" data-nilaiid="" data-qberikan="Sc.Ki. 6 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 2803px; left: 1283px;">
+          Nilai 33</div><div class="bahan text" id="nl34" data-nilaiid="nl33" data-qberikan="CSc.Ki.17 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 2672px; left: 1284px;">
+          Nilai 34</div><div class="bahan text" id="nl35" data-nilaiid="nl34" data-qberikan="CSc.Ki.16 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 2542px; left: 1284px;">
+          Nilai 35</div><div class="bahan text" id="nl36" data-nilaiid="nl35" data-qberikan="Sc.Ki. 5 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 2426px; left: 1286px;">
+          Nilai 36</div><div class="bahan text" id="nl37" data-nilaiid="nl36" data-qberikan="CSc.Ki. 15 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 2314px; left: 1285px;">
+          Nilai 37</div><div class="bahan text" id="nl38" data-nilaiid="nl37" data-qberikan="CSc.Ki. 14 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 2218px; left: 1285px;">
+          Nilai 38</div><div class="bahan text" id="nl39" data-nilaiid="nl38" data-qberikan="CSc.Ki. 13 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 2099px; left: 1287px;">
+          Nilai 39</div><div class="bahan text" id="nl40" data-nilaiid="nl39" data-qberikan="CSc.Ki. 12 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1970px; left: 1287px;">
+          Nilai 41</div><div class="bahan text" id="nl41" data-nilaiid="nl40" data-qberikan="CSc.Ki. 11 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1855px; left: 1290px;">
+          Nilai 42</div><div class="bahan text" id="nl42" data-nilaiid="nl41" data-qberikan="CSc.Ki. 10 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1744px; left: 1290px;">
+          Nilai 43</div><div class="bahan text" id="nl43" data-nilaiid="nl42" data-qberikan="CSc.Ki. 9 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1630px; left: 1290px;">
+          Nilai 44</div><div class="bahan text" id="nl44" data-nilaiid="nl43" data-qberikan="Sc.Ki. 4 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1508px; left: 1289px;">
+          Nilai 45</div><div class="bahan text" id="nl45" data-nilaiid="nl44" data-qberikan="Sc.Ki. 3 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1391px; left: 1290px;">
+          Nilai 46</div><div class="bahan text" id="nl46" data-nilaiid="nl45" data-qberikan="Sc.Ki. 2 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1272px; left: 1289px;">
+          Nilai 47</div><div class="bahan text" id="nl47" data-nilaiid="nl46" data-qberikan="CSc.Ki. 8 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1157px; left: 1287px;">
+          Nilai 48</div><div class="bahan text" id="nl48" data-nilaiid="nl47" data-qberikan="CSc.Ki. 7 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 1037px; left: 1289px;">
+          Nilai 49</div><div class="bahan text" id="nl49" data-nilaiid="nl48" data-qberikan="CSc.Ki. 6 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 930px; left: 1288px;">
+          Nilai 50</div><div class="bahan text" id="nl50" data-nilaiid="nl49" data-qberikan="CSc.Ki. 5 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 818px; left: 1289px;">
+          Nilai 51</div><div class="bahan text" id="nl51" data-nilaiid="nl50" data-qberikan="Sc.Ki. 1 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 712px; left: 1290px;">
+          Nilai 52</div><div class="bahan text" id="nl52" data-nilaiid="nl51" data-qberikan="CSc.Ki. 4 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 610px; left: 1289px;">
+          Nilai 53</div><div class="bahan text" id="nl53" data-nilaiid="nl52" data-qberikan="CSc.Ki. 3 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 508px; left: 1289px;">
+          Nilai 54</div><div class="bahan text" id="nl54" data-nilaiid="nl53" data-qberikan="CSc.Ki. 2 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 402px; left: 1288px;">
+          Nilai 55</div><div class="bahan text" id="nl55" data-nilaiid="nl54" data-qberikan="CSc.Ki. 1 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 276px; left: 1287px;">
+          Nilai 56</div><div class="bahan text" id="nl56" data-nilaiid="nl32,nl55" data-qberikan="" contenteditable="true" data-rot="0" style="position: absolute; top: 161px; left: 1281px;">
+          Nilai 57</div><div class="bahan text" id="nl57" data-nilaiid="nl56" data-qberikan="CSc. 1 Ka" contenteditable="true" data-rot="0" style="position: absolute; top: 70px; left: 1207px;">
+          Nilai 60</div></div>

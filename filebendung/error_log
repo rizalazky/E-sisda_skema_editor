@@ -1,0 +1,133 @@
+[25-Feb-2021 19:43:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:43:13 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:43:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:43:20 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:46:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:46:14 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:46:38 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:46:38 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:46:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:46:40 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:46:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:46:46 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:46:58 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:46:58 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:47:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:47:48 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:48:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:48:35 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:52:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:52:27 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:52:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:52:32 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:52:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:52:35 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:52:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:52:36 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:55:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:55:30 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 19:57:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 19:57:26 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:03:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 20:03:41 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:03:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 20:03:44 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:03:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 20:03:53 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:05:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 20:05:05 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:08:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 20:08:30 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:09:45 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:09:45 UTC] PHP Notice:  Undefined variable: conn in /home/bodrikut/public_html/distribusiair/index.php on line 32
+[25-Feb-2021 20:09:45 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bodrikut/public_html/distribusiair/index.php on line 32
+[25-Feb-2021 20:09:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bodrikut/public_html/distribusiair/index.php on line 33
+[25-Feb-2021 20:09:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 20:09:46 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:11:25 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:11:25 UTC] PHP Notice:  Undefined variable: conn in /home/bodrikut/public_html/distribusiair/index.php on line 32
+[25-Feb-2021 20:11:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bodrikut/public_html/distribusiair/index.php on line 32
+[25-Feb-2021 20:11:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bodrikut/public_html/distribusiair/index.php on line 33
+[25-Feb-2021 20:11:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 20:11:25 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:14:54 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:14:54 UTC] PHP Notice:  Undefined variable: conn in /home/bodrikut/public_html/distribusiair/index.php on line 32
+[25-Feb-2021 20:14:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bodrikut/public_html/distribusiair/index.php on line 32
+[25-Feb-2021 20:14:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bodrikut/public_html/distribusiair/index.php on line 33
+[25-Feb-2021 20:14:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 20:14:54 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:16:56 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:16:56 UTC] PHP Notice:  Undefined variable: conn in /home/bodrikut/public_html/distribusiair/index.php on line 32
+[25-Feb-2021 20:16:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bodrikut/public_html/distribusiair/index.php on line 32
+[25-Feb-2021 20:16:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bodrikut/public_html/distribusiair/index.php on line 33
+[25-Feb-2021 20:16:56 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 20:16:56 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:23:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 20:23:18 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:23:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 20:23:24 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:24:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 20:24:10 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:29:38 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:29:38 UTC] PHP Notice:  Undefined variable: conn in /home/bodrikut/public_html/distribusiair/index.php on line 32
+[25-Feb-2021 20:29:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/bodrikut/public_html/distribusiair/index.php on line 32
+[25-Feb-2021 20:29:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/bodrikut/public_html/distribusiair/index.php on line 33
+[25-Feb-2021 20:29:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bodrikut/public_html/distribusiair/conn.php on line 2
+[25-Feb-2021 20:29:39 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/bodrikut/public_html/distribusiair/conn.php on line 5
+[25-Feb-2021 20:31:47 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:31:47 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:40:11 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:42:44 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:42:45 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:45:53 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:45:54 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:46:50 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:46:54 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:55:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 20:55:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 21:07:04 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 21:07:04 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 21:07:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 21:07:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 21:07:31 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 21:07:31 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[25-Feb-2021 21:52:26 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 04:13:50 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 04:13:50 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 04:18:35 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 04:18:35 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 04:18:45 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 04:18:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 04:18:52 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 04:18:52 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:17:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:17:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:17:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:37:01 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:37:09 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:37:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:37:19 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:51:53 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:51:53 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:51:55 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:51:55 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:52:01 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:52:02 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:52:29 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:52:30 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:52:31 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:52:32 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:54:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 05:54:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 06:26:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 06:26:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 06:27:02 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 06:27:03 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 06:43:48 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 08:01:26 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 08:01:30 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 08:02:25 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 08:02:26 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 08:02:27 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 08:02:40 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
+[26-Feb-2021 08:03:42 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/bodrikut/public_html/config/koneksi.php on line 17
